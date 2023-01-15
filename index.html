@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellnUs | Daily Dose of Wellness</title>
+    <link rel="icon" type="image/x-icon" href="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/15287/lotus-flower-clipart-xl.png">
+    <style>
+
+    img {
+        max-width: 10%;
+        max-height: 10%;
+    }
+
+    body {
+        background-color: mintcream;
+    }
+
+    .box {
+        text-align: center;
+    }
+
+    .label {
+        font-size: 18px;
+        font-family: Verdana;
+    }
+    
+    .button {
+        border: none;
+        color: white;
+        padding: 12px 22px;
+        text-align: center;
+        text-decoration: solid;
+        display: inline-block;
+        font-size: 16px;
+        font-family: Verdana;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+
+    .button1 {
+        background-color: white;
+        color: black;
+        border: 3px solid hotpink;
+    }
+
+    .button1:hover {
+        background-color: hotpink;
+        color: white;
+    }
+
+    .button2 {
+        background-color: white;
+        color: black;
+        border: 3px solid teal
+    }
+
+    .button2:hover {
+        background-color: teal;
+        color: white;
+    }
+
+    .button3 {
+        background-color: white;
+        color: black;
+        border: 3px solid darkorchid
+    }
+
+    .button3:hover {
+        background-color: darkorchid;
+        color: white;
+    }
+
+    h2 {
+        font-family: Verdana;
+        font-style: italic;
+        text-align: left;
+        font-size: 40px;
+    }
+
+    #quote {
+        text-align: center;
+        border-style: solid;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 5px;
+        background: rgb(0, 78, 100);
+        border-color: rgb(0, 78, 100);
+        display: inline-block;
+        color: white;
+    }
+    </style>
+</head>
+
+<body>
+
+    <p>
+        
+    </p>
+
+    <div id="heading" style="vertical-align: middle; text-align: center; margin-left: 10px;">
+        <img style="padding-left: 10px; float:left;" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/15287/lotus-flower-clipart-xl.png">
+        <h2 style="padding-left: 10px; float: left;">WellnUs</h2>
+        <img style="margin-left: 10px; float: left;" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/15287/lotus-flower-clipart-xl.png">
+    </div>
+
+    &nbsp;
+
+    <div style="font-family: Verdana; clear: both;">
+        <p>
+
+        </p>
+
+        <div id="quote" style="margin-left: 10px;">
+            <p style="line-height: 5px;">"A healthy outside starts from the inside."</p>
+            <p style="font-style: italic; line-height: 5px;">-- Robert Urich</p>
+        </div>
+    </div>
+
+    <p>
+
+    </p>
+
+    <div style="font-family: Verdana; font-size: 17px; margin: 10px;">
+        <h3 style="font-size: 25px; font-style: oblique;">What is WellnUs?</h3>
+        <p style="text-align: center;">Do you need a burst (figurative or literal) of motivation? Or maybe you're just looking for a quick mood boost? 
+        Use WellnUs as an easy source of inspiration for basic wellness! 
+        Take a look at the categories listed below to get the pick-me-up that you need. :)</p>
+    </div>
+
+    <p style="font-size: 50px;">
+
+    </p>
+
+    <div class="box">
+        <div class="centre">
+        <form>
+            <label for="click" id="label1" class="label">🧘‍♀️ Click below for a Wellness Activity 🧘‍♀️</label><br>
+            <button class="button button1" id="1">Get Activity!</button>
+        </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("1").addEventListener("click", function() {
+            alert(random_element(activity));
+        });
+    </script>
+   
+   <p style="font-size: 30px;">
+
+   </p>
+
+    <div class="box">
+        <div class="centre">
+        <form>
+            <label for="click" id="label2" class="label">💗 Click below for some Wellness Motivation 💗</label><br>
+            <button class="button button2" id="2">Get Motivation!</button>
+        </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("2").addEventListener("click", function() {
+            alert(random_element(motivation));
+        });
+    </script>
+
+    <p style="font-size: 30px;">
+
+    </p>
+
+    <div class="box">
+        <div class="centre">
+        <form>
+            <label for="click" id="label3" class="label">💬 Click below for a Wellness Word of the day 💬</label><br>
+            <button class="button button3" id="3">Get Word!</button>
+         </form>
+         </div>
+    </div>
+
+    <script>
+        document.getElementById("3").addEventListener("click", function() {
+            alert(random_element(word));
+        });
+    </script>
+
+</body>
+<script src="code.js"></script>
+
+</html>
